@@ -23,6 +23,8 @@ namespace WebApplication1.Models
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+
+            //ghi chu hoac code bat cu gi
         }
 
         public static ApplicationDbContext Create()
